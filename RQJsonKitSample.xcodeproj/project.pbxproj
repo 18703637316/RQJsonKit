@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E5394CA211A9E4C00AAC2B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5394C9211A9E4C00AAC2B6 /* AppDelegate.m */; };
+		5E5394CD211A9E4C00AAC2B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5394CC211A9E4C00AAC2B6 /* ViewController.m */; };
+		5E5394D0211A9E4C00AAC2B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5394CE211A9E4C00AAC2B6 /* Main.storyboard */; };
+		5E5394D2211A9E4D00AAC2B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5394D1211A9E4D00AAC2B6 /* Assets.xcassets */; };
+		5E5394D5211A9E4D00AAC2B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5394D3211A9E4D00AAC2B6 /* LaunchScreen.storyboard */; };
+		5E5394D8211A9E4D00AAC2B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5394D7211A9E4D00AAC2B6 /* main.m */; };
+		5E5394FD211A9E9900AAC2B6 /* RQJsonKitCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5394E0211A9E9800AAC2B6 /* RQJsonKitCache.m */; };
+		5E5394FE211A9E9900AAC2B6 /* RQTransformOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5394E3211A9E9800AAC2B6 /* RQTransformOperation.m */; };
+		5E5394FF211A9E9900AAC2B6 /* NSObject+RQJsonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5394E6211A9E9800AAC2B6 /* NSObject+RQJsonKit.m */; };
+		5E539500211A9E9900AAC2B6 /* NSString+RQJsonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5394E7211A9E9800AAC2B6 /* NSString+RQJsonKit.m */; };
+		5E539501211A9E9900AAC2B6 /* RQJsonKitConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5394ED211A9E9800AAC2B6 /* RQJsonKitConst.m */; };
+		5E539502211A9E9900AAC2B6 /* RQJsonKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5394F0211A9E9800AAC2B6 /* RQJsonKitManager.m */; };
+		5E539503211A9E9900AAC2B6 /* RQMappingKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5394F2211A9E9800AAC2B6 /* RQMappingKey.m */; };
+		5E539504211A9E9900AAC2B6 /* RQPropertyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5394F3211A9E9800AAC2B6 /* RQPropertyInfo.m */; };
+		5E539505211A9E9900AAC2B6 /* RQPropertyTypeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5394F4211A9E9800AAC2B6 /* RQPropertyTypeInfo.m */; };
+		5E539506211A9E9900AAC2B6 /* RQClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5394F5211A9E9800AAC2B6 /* RQClassInfo.m */; };
+		5E539507211A9E9900AAC2B6 /* RQJsonKitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5394FC211A9E9800AAC2B6 /* RQJsonKitTool.m */; };
+		5E53950A211A9F6300AAC2B6 /* RQUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E539508211A9F6300AAC2B6 /* RQUser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E5394C5211A9E4C00AAC2B6 /* RQJsonKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RQJsonKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5394C8211A9E4C00AAC2B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E5394C9211A9E4C00AAC2B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E5394CB211A9E4C00AAC2B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E5394CC211A9E4C00AAC2B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E5394CF211A9E4C00AAC2B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E5394D1211A9E4D00AAC2B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E5394D4211A9E4D00AAC2B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E5394D6211A9E4D00AAC2B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5394D7211A9E4D00AAC2B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E5394E0211A9E9800AAC2B6 /* RQJsonKitCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQJsonKitCache.m; sourceTree = "<group>"; };
+		5E5394E1211A9E9800AAC2B6 /* RQJsonKitCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQJsonKitCache.h; sourceTree = "<group>"; };
+		5E5394E3211A9E9800AAC2B6 /* RQTransformOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQTransformOperation.m; sourceTree = "<group>"; };
+		5E5394E4211A9E9800AAC2B6 /* RQTransformOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQTransformOperation.h; sourceTree = "<group>"; };
+		5E5394E6211A9E9800AAC2B6 /* NSObject+RQJsonKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RQJsonKit.m"; sourceTree = "<group>"; };
+		5E5394E7211A9E9800AAC2B6 /* NSString+RQJsonKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RQJsonKit.m"; sourceTree = "<group>"; };
+		5E5394E8211A9E9800AAC2B6 /* NSObject+RQJsonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RQJsonKit.h"; sourceTree = "<group>"; };
+		5E5394E9211A9E9800AAC2B6 /* NSString+RQJsonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RQJsonKit.h"; sourceTree = "<group>"; };
+		5E5394EC211A9E9800AAC2B6 /* RQJsonKitConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQJsonKitConst.h; sourceTree = "<group>"; };
+		5E5394ED211A9E9800AAC2B6 /* RQJsonKitConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQJsonKitConst.m; sourceTree = "<group>"; };
+		5E5394EF211A9E9800AAC2B6 /* RQJsonKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQJsonKitManager.h; sourceTree = "<group>"; };
+		5E5394F0211A9E9800AAC2B6 /* RQJsonKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQJsonKitManager.m; sourceTree = "<group>"; };
+		5E5394F2211A9E9800AAC2B6 /* RQMappingKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQMappingKey.m; sourceTree = "<group>"; };
+		5E5394F3211A9E9800AAC2B6 /* RQPropertyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQPropertyInfo.m; sourceTree = "<group>"; };
+		5E5394F4211A9E9800AAC2B6 /* RQPropertyTypeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQPropertyTypeInfo.m; sourceTree = "<group>"; };
+		5E5394F5211A9E9800AAC2B6 /* RQClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQClassInfo.m; sourceTree = "<group>"; };
+		5E5394F6211A9E9800AAC2B6 /* RQPropertyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQPropertyInfo.h; sourceTree = "<group>"; };
+		5E5394F7211A9E9800AAC2B6 /* RQMappingKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQMappingKey.h; sourceTree = "<group>"; };
+		5E5394F8211A9E9800AAC2B6 /* RQPropertyTypeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQPropertyTypeInfo.h; sourceTree = "<group>"; };
+		5E5394F9211A9E9800AAC2B6 /* RQClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQClassInfo.h; sourceTree = "<group>"; };
+		5E5394FB211A9E9800AAC2B6 /* RQJsonKitTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQJsonKitTool.h; sourceTree = "<group>"; };
+		5E5394FC211A9E9800AAC2B6 /* RQJsonKitTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQJsonKitTool.m; sourceTree = "<group>"; };
+		5E539508211A9F6300AAC2B6 /* RQUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQUser.m; sourceTree = "<group>"; };
+		5E539509211A9F6300AAC2B6 /* RQUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQUser.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E5394C2211A9E4C00AAC2B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E5394BC211A9E4C00AAC2B6 = {
+			isa = PBXGroup;
+			children = (
+				5E5394DE211A9E9800AAC2B6 /* RQJsonKit */,
+				5E5394C7211A9E4C00AAC2B6 /* RQJsonKitSample */,
+				5E5394C6211A9E4C00AAC2B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E5394C6211A9E4C00AAC2B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E5394C5211A9E4C00AAC2B6 /* RQJsonKitSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E5394C7211A9E4C00AAC2B6 /* RQJsonKitSample */ = {
+			isa = PBXGroup;
+			children = (
+				5E539509211A9F6300AAC2B6 /* RQUser.h */,
+				5E539508211A9F6300AAC2B6 /* RQUser.m */,
+				5E5394C8211A9E4C00AAC2B6 /* AppDelegate.h */,
+				5E5394C9211A9E4C00AAC2B6 /* AppDelegate.m */,
+				5E5394CB211A9E4C00AAC2B6 /* ViewController.h */,
+				5E5394CC211A9E4C00AAC2B6 /* ViewController.m */,
+				5E5394CE211A9E4C00AAC2B6 /* Main.storyboard */,
+				5E5394D1211A9E4D00AAC2B6 /* Assets.xcassets */,
+				5E5394D3211A9E4D00AAC2B6 /* LaunchScreen.storyboard */,
+				5E5394D6211A9E4D00AAC2B6 /* Info.plist */,
+				5E5394D7211A9E4D00AAC2B6 /* main.m */,
+			);
+			path = RQJsonKitSample;
+			sourceTree = "<group>";
+		};
+		5E5394DE211A9E9800AAC2B6 /* RQJsonKit */ = {
+			isa = PBXGroup;
+			children = (
+				5E5394DF211A9E9800AAC2B6 /* RQCache */,
+				5E5394E2211A9E9800AAC2B6 /* Operation */,
+				5E5394E5211A9E9800AAC2B6 /* Category */,
+				5E5394EA211A9E9800AAC2B6 /* Protocol */,
+				5E5394EB211A9E9800AAC2B6 /* Const */,
+				5E5394EE211A9E9800AAC2B6 /* Manager */,
+				5E5394F1211A9E9800AAC2B6 /* Common */,
+				5E5394FA211A9E9800AAC2B6 /* Tool */,
+			);
+			path = RQJsonKit;
+			sourceTree = "<group>";
+		};
+		5E5394DF211A9E9800AAC2B6 /* RQCache */ = {
+			isa = PBXGroup;
+			children = (
+				5E5394E0211A9E9800AAC2B6 /* RQJsonKitCache.m */,
+				5E5394E1211A9E9800AAC2B6 /* RQJsonKitCache.h */,
+			);
+			path = RQCache;
+			sourceTree = "<group>";
+		};
+		5E5394E2211A9E9800AAC2B6 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				5E5394E3211A9E9800AAC2B6 /* RQTransformOperation.m */,
+				5E5394E4211A9E9800AAC2B6 /* RQTransformOperation.h */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		5E5394E5211A9E9800AAC2B6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5E5394E6211A9E9800AAC2B6 /* NSObject+RQJsonKit.m */,
+				5E5394E7211A9E9800AAC2B6 /* NSString+RQJsonKit.m */,
+				5E5394E8211A9E9800AAC2B6 /* NSObject+RQJsonKit.h */,
+				5E5394E9211A9E9800AAC2B6 /* NSString+RQJsonKit.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5E5394EA211A9E9800AAC2B6 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		5E5394EB211A9E9800AAC2B6 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				5E5394EC211A9E9800AAC2B6 /* RQJsonKitConst.h */,
+				5E5394ED211A9E9800AAC2B6 /* RQJsonKitConst.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		5E5394EE211A9E9800AAC2B6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5E5394EF211A9E9800AAC2B6 /* RQJsonKitManager.h */,
+				5E5394F0211A9E9800AAC2B6 /* RQJsonKitManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5E5394F1211A9E9800AAC2B6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5E5394F2211A9E9800AAC2B6 /* RQMappingKey.m */,
+				5E5394F3211A9E9800AAC2B6 /* RQPropertyInfo.m */,
+				5E5394F4211A9E9800AAC2B6 /* RQPropertyTypeInfo.m */,
+				5E5394F5211A9E9800AAC2B6 /* RQClassInfo.m */,
+				5E5394F6211A9E9800AAC2B6 /* RQPropertyInfo.h */,
+				5E5394F7211A9E9800AAC2B6 /* RQMappingKey.h */,
+				5E5394F8211A9E9800AAC2B6 /* RQPropertyTypeInfo.h */,
+				5E5394F9211A9E9800AAC2B6 /* RQClassInfo.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5E5394FA211A9E9800AAC2B6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				5E5394FB211A9E9800AAC2B6 /* RQJsonKitTool.h */,
+				5E5394FC211A9E9800AAC2B6 /* RQJsonKitTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E5394C4211A9E4C00AAC2B6 /* RQJsonKitSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5394DB211A9E4D00AAC2B6 /* Build configuration list for PBXNativeTarget "RQJsonKitSample" */;
+			buildPhases = (
+				5E5394C1211A9E4C00AAC2B6 /* Sources */,
+				5E5394C2211A9E4C00AAC2B6 /* Frameworks */,
+				5E5394C3211A9E4C00AAC2B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RQJsonKitSample;
+			productName = RQJsonKitSample;
+			productReference = 5E5394C5211A9E4C00AAC2B6 /* RQJsonKitSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E5394BD211A9E4C00AAC2B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = renqiangqiang;
+				TargetAttributes = {
+					5E5394C4211A9E4C00AAC2B6 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 5E5394C0211A9E4C00AAC2B6 /* Build configuration list for PBXProject "RQJsonKitSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E5394BC211A9E4C00AAC2B6;
+			productRefGroup = 5E5394C6211A9E4C00AAC2B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E5394C4211A9E4C00AAC2B6 /* RQJsonKitSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E5394C3211A9E4C00AAC2B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5394D5211A9E4D00AAC2B6 /* LaunchScreen.storyboard in Resources */,
+				5E5394D2211A9E4D00AAC2B6 /* Assets.xcassets in Resources */,
+				5E5394D0211A9E4C00AAC2B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E5394C1211A9E4C00AAC2B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5394FD211A9E9900AAC2B6 /* RQJsonKitCache.m in Sources */,
+				5E539503211A9E9900AAC2B6 /* RQMappingKey.m in Sources */,
+				5E5394FF211A9E9900AAC2B6 /* NSObject+RQJsonKit.m in Sources */,
+				5E539500211A9E9900AAC2B6 /* NSString+RQJsonKit.m in Sources */,
+				5E53950A211A9F6300AAC2B6 /* RQUser.m in Sources */,
+				5E539504211A9E9900AAC2B6 /* RQPropertyInfo.m in Sources */,
+				5E539507211A9E9900AAC2B6 /* RQJsonKitTool.m in Sources */,
+				5E5394CD211A9E4C00AAC2B6 /* ViewController.m in Sources */,
+				5E5394FE211A9E9900AAC2B6 /* RQTransformOperation.m in Sources */,
+				5E5394D8211A9E4D00AAC2B6 /* main.m in Sources */,
+				5E5394CA211A9E4C00AAC2B6 /* AppDelegate.m in Sources */,
+				5E539505211A9E9900AAC2B6 /* RQPropertyTypeInfo.m in Sources */,
+				5E539502211A9E9900AAC2B6 /* RQJsonKitManager.m in Sources */,
+				5E539501211A9E9900AAC2B6 /* RQJsonKitConst.m in Sources */,
+				5E539506211A9E9900AAC2B6 /* RQClassInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E5394CE211A9E4C00AAC2B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E5394CF211A9E4C00AAC2B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E5394D3211A9E4D00AAC2B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E5394D4211A9E4D00AAC2B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E5394D9211A9E4D00AAC2B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E5394DA211A9E4D00AAC2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E5394DC211A9E4D00AAC2B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9WW2F64NF;
+				INFOPLIST_FILE = RQJsonKitSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rqq.RQJsonKitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E5394DD211A9E4D00AAC2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9WW2F64NF;
+				INFOPLIST_FILE = RQJsonKitSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rqq.RQJsonKitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E5394C0211A9E4C00AAC2B6 /* Build configuration list for PBXProject "RQJsonKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5394D9211A9E4D00AAC2B6 /* Debug */,
+				5E5394DA211A9E4D00AAC2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E5394DB211A9E4D00AAC2B6 /* Build configuration list for PBXNativeTarget "RQJsonKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5394DC211A9E4D00AAC2B6 /* Debug */,
+				5E5394DD211A9E4D00AAC2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E5394BD211A9E4C00AAC2B6 /* Project object */;
+}
