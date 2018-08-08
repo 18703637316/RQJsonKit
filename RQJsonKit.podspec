@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/18703637316/RQJsonKit.git", :tag => "#{s.version}" }
-  s.source_files  = "RQJsonKit", "RQJsonKit/**/*.{h,m}"
+  s.source_files  = "RQJsonKit/**/*.{h,m}"
+  s.public_header_files = 'RQJsonKit/**/*.h'
 
 end
