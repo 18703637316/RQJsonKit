@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "RQJsonKit"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "An easy tool for json to model."
   s.homepage     = "https://github.com/18703637316/RQJsonKit.git"
   s.license      = "MIT (example)"
